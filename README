@@ -1,0 +1,11 @@
+Hello,
+
+This is a small java console application to manage a small database of phone records which is persisted into a file.
+
+To Compile:
+    Generate the java-phonebook.jar from the sources and the MANIFEST.MF included in META-INF
+
+To RUN:
+    Navigate to the directory that contains the java-phonebook.jar and type:
+
+    java -jar java-phonebook.jar [xml file name]
