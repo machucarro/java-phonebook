@@ -12,10 +12,10 @@ public class PhoneRecord implements Comparable<PhoneRecord>{
     private String phoneType;
 
     public PhoneRecord(String name, String familyName, String phoneNumber, String phoneType) {
-        this.name = name;
-        this.familyName = familyName;
-        this.phoneNumber = phoneNumber;
-        this.phoneType = phoneType;
+        this.name = name != null ? name : "";
+        this.familyName = familyName != null ? familyName : "";
+        this.phoneNumber = phoneNumber != null ? phoneNumber : "";
+        this.phoneType = phoneType != null ? phoneType : "";
     }
 
     public String getName() {
